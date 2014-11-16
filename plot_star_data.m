@@ -1,4 +1,7 @@
-function plot_star_data(X,Y)
+function plot_star_data(A)
+X = A(1:4)
+Y = A(5:8)
+
 xlim([0 1028]);
 ylim([0 768]);
 
@@ -6,6 +9,10 @@ hold on;
 
 % four stars
 scatter(X,Y, 'o');
+
+% actual position
+[x,y] = determine_position(A);
+scatter(x,y, 'o');
 
 % center point
 % scatter(520, 367.5, '+');

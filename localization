@@ -1,0 +1,13 @@
+A.mat
+>> print_distribution(rawStarData);
+four: 1251, three:124, two:1, one:0, zero:0
+
+B.mat
+>> print_distribution(rawStarData);
+four: 384, three:0, two:0, one:0, zero:0
+
+C.mat
+>> print_distribution(rawStarData);
+four: 519, three:2, two:5, one:1, zero:12
+
+
